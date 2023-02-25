@@ -111,3 +111,48 @@ position: relative;
     left: 194.4px;
     border: 6px solid aqua;
 }
+@media screen and (max-width: 550px) {
+    .main-border{
+        height: 260px;
+        width: 260px;
+        box-sizing: 20px;
+        }
+        .name{
+            top: 60px;
+            left: 28.5%;
+        }
+        .center{
+            height: 20px;
+            width: 20px;
+            top: 118.4px;
+            left: 118.4px;
+        }
+        .hour{
+            font-size: 15px;
+        }
+        .inner-circle{
+            width: 200px;
+            height: 200px;
+            box-sizing: 7px;
+            left: 20.4px;
+            top:20.4px;
+        }
+        .stick-second{
+            transform: rotate(90deg);
+            height: 90px;
+            left: 127.6px;
+            box-sizing: 1px;
+        }
+        .stick-minutes{
+            transform: rotate(0deg);
+            height: 75px;
+            left: 127.6px;
+            border: 2.5px solid aqua;
+        }
+        .stick-hour{
+            transform: rotate(180deg);
+            height: 60px;
+            left: 126px;
+            box-sizing: 4px;
+        }
+}
