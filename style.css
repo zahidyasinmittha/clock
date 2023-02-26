@@ -18,10 +18,23 @@ border-radius: 50%;
 position: relative;
 }
 .name{
-    color: red;
+    color: yellow;
     position: absolute;
+    font-weight: bolder;
     top: 100px;
-    left: 37.5%;
+    left: 142px;
+}
+.digital-clock{
+    color: yellow;
+    position: absolute;
+    bottom: 100px;
+    left: 157.1px;
+}
+.date{
+    position: absolute;
+    top: 190px;
+    right: 60px;
+    color: yellow;
 }
 .center{
     height: 30px;
@@ -44,40 +57,17 @@ position: relative;
     color: aqua;
     transform: rotate(var(--rotation));
 }
-.hour-1{
-    --rotation:30deg;
-}
-.hour-2{
-    --rotation:60deg;
-}
-.hour-3{
-    --rotation:90deg;
-    
-}
-.hour-4{
-    --rotation:120deg;
-}
-.hour-5{
-    --rotation:150deg;
-}
-.hour-6{
-    --rotation:180deg;
-}
-.hour-7{
-    --rotation:210deg;
-}
-.hour-8{
-    --rotation:240deg;
-}
-.hour-9{
-    --rotation:270deg;
-}
-.hour-10{
-    --rotation:300deg;
-}
-.hour-11{
-    --rotation:330deg;
-}
+.hour-1{    --rotation:30deg; }
+.hour-2{    --rotation:60deg; }
+.hour-3{    --rotation:90deg; }
+.hour-4{    --rotation:120deg;}
+.hour-5{    --rotation:150deg;}
+.hour-6{    --rotation:180deg;}
+.hour-7{    --rotation:210deg;}
+.hour-8{    --rotation:240deg;}
+.hour-9{    --rotation:270deg;}
+.hour-10{   --rotation:300deg;}
+.hour-11{   --rotation:330deg;}
 .inner-circle{
     position: absolute;
     width: 320px;
@@ -119,7 +109,8 @@ position: relative;
         }
         .name{
             top: 60px;
-            left: 28.5%;
+            left: 35.5%;
+            font-size: 12px;
         }
         .center{
             height: 20px;
@@ -154,5 +145,15 @@ position: relative;
             height: 60px;
             left: 126px;
             box-sizing: 4px;
+        }
+        .digital-clock{
+            bottom: 60px;
+            left: 100px;
+            font-size: 12px;
+        }
+        .date{
+            top: 125px;
+            right: 40px;
+            font-size: 12px;
         }
 }
